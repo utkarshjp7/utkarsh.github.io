@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://utkarshjp7.github.io",
   "devDependencies": {
     "custom-react-scripts": "^0.1.4",
     "prettier": "^1.8.2"

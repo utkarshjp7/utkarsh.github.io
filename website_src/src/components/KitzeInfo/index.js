@@ -35,7 +35,7 @@ class KitzeInfo extends Component {
         >
           <Image isHome={isHome} src={me} alt="me" styles={styles.Image}/>
           <TitleAndDescription>
-            <Title isHome={isHome} styles={styles.Title}> Hi, I'm Kitze! </Title>
+            <Title isHome={isHome} styles={styles.Title}> Hi, I'm Utkarsh! </Title>
             <Description isHome={isHome} styles={styles.Description}> I make stuff happen. </Description>
           </TitleAndDescription>
         </ClickableTop>

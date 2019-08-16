@@ -1,25 +1,14 @@
 const links = {
-  github: 'https://github.com/kitze',
-  guitarYoutube: 'https://youtube.com/ampoverloaded',
-  soundcloud: 'https://soundcloud.com/thekitze',
-  twitter: 'https://twitter.com/thekitze',
-  medium: 'https://medium.com/@kitze',
-  email: 'mailto:kristijan.mkd@gmail.com'
+  github: 'https://github.com/utkarshjp7',
+  linkedin: 'https://linkedin.com/in/utkarsh-patel',
+  email: 'mailto:utkarshp@usc.edu'
 };
 
 export const textLinks = [
   {
-    href: links.github,
-    title: 'Web Developer',
+    href: links.linkedin,
+    title: 'Software Engineer / Roboticist',
   },
-  {
-    href: links.guitarYoutube,
-    title: 'Guitar Player'
-  },
-  {
-    href: links.soundcloud,
-    title: 'Musician'
-  }
 ];
 
 export const socialIcons = [
@@ -28,15 +17,11 @@ export const socialIcons = [
     href: links.email
   },
   {
-    icon: 'twitter',
-    href: links.twitter
-  },
-  {
     icon: 'github',
     href: links.github
   },
   {
-    icon: 'medium',
-    href: links.medium
+    icon: 'linkedin',
+    href: links.linkedin
   }
 ];
