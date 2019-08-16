@@ -13,12 +13,14 @@ const Header = ({store, styles = {}}) => {
         <Link isActive={router.currentView.id === 'home'} onClick={() => router.goTo(views.home, {}, store)}>
           about
         </Link>
-        <Link isActive={router.currentView.id === 'thoughts'} onClick={() => router.goTo(views.thoughts, {}, store)}>
-          thoughts
-        </Link>
       </ContentMiddle>
     </Wrapper>
   )
 };
 
+/*
+        <Link isActive={router.currentView.id === 'thoughts'} onClick={() => router.goTo(views.thoughts, {}, store)}>
+          thoughts
+        </Link>
+*/
 export default observer(['store'])(Header);

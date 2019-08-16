@@ -6,22 +6,10 @@ const WhatImUpTo = () => (
     <SectionTitle> What I'm up to </SectionTitle>
     <UnorderedList>
       <ListItem>
-        Making products
+        Attending USC for M.S. in Computer Science
       </ListItem>
       <ListItem>
-        Traveling the world
-      </ListItem>
-      <ListItem>
-        Teaching React with <UnderlinedLink
-        target="_blank"
-        href="https://reactacademy.io">
-        React Academy
-      </UnderlinedLink>
-      </ListItem>
-      <ListItem>
-        <UnderlinedLink href="https://twitter.com/thekitze" target="_blank">
-          Tweeting like there's no tomorrow!
-        </UnderlinedLink>
+        Exploring the World
       </ListItem>
     </UnorderedList>
   </Section>

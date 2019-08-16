@@ -16,7 +16,7 @@ import {RightSideHome, ShowMoreButton} from './styles';
 import WhoAmI from 'components/sections/WhoAmI';
 import WhatImUpTo from 'components/sections/WhatImUpTo';
 import ProudProjects from 'components/sections/ProudProjects';
-import Speaking from 'components/sections/Speaking';
+//import Speaking from 'components/sections/Speaking';
 import DevStack from 'components/sections/DevStack';
 import Technologies from 'components/sections/Technologies';
 import Libraries from 'components/sections/Libraries';
@@ -55,11 +55,16 @@ class Home extends Component {
         <WhoAmI/>
         <WhatImUpTo/>
         <ProudProjects/>
-        <Speaking/>
-        <DevStack/>
+
+      </RightSideHome>
+    )
+  }
+}
+
+/*
+        //<DevStack/>
         <Technologies/>
         <Libraries/>
-        {/*<Projects/>*/}
         <Achievements/>
 
         {!showExtra && <ShowMoreButton onClick={() => app.setShowExtra(true)}>
@@ -75,10 +80,5 @@ class Home extends Component {
           <Fitness/>
         </div>
         }
-
-      </RightSideHome>
-    )
-  }
-}
-
+*/
 export default Home;
