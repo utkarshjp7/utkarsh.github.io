@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {inject, observer} from 'mobx-react';
 import views from 'config/views';
+import {UnderlinedLink} from 'styles/shared/styled-components';
+import Pdf from 'doc/resume.pdf';
 
 //data
 import {socialIcons} from 'data/social';
@@ -36,7 +38,7 @@ class KitzeInfo extends Component {
           <Image isHome={isHome} src={me} alt="me" styles={styles.Image}/>
           <TitleAndDescription>
             <Title isHome={isHome} styles={styles.Title}> Hi, I'm Utkarsh! </Title>
-            <Description isHome={isHome} styles={styles.Description}> I make stuff happen. </Description>
+            <Description isHome={isHome} styles={styles.Description}> I get things done on time. <br></br><br></br> <UnderlinedLink href={Pdf}>Resume</UnderlinedLink></Description>
           </TitleAndDescription>
         </ClickableTop>
 

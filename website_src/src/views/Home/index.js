@@ -48,7 +48,7 @@ class Home extends Component {
       <RightSideHome id="right-side-home" backgroundColor="#333959">
 
         <Helmet
-          title="Kitze"
+          title="Utkarsh Patel"
           meta={getMeta()}
         />
 

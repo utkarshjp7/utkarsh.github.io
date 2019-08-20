@@ -1,3 +1,5 @@
+import Pdf from 'doc/resume.pdf';
+
 const links = {
   github: 'https://github.com/utkarshjp7',
   linkedin: 'https://linkedin.com/in/utkarsh-patel',
@@ -6,9 +8,14 @@ const links = {
 
 export const textLinks = [
   {
-    href: links.linkedin,
-    title: 'Software Engineer / Roboticist',
+    title: 'Software Engineer',
   },
+  {
+    title: 'Roboticist',
+  },
+  {
+    title: 'Machine Learning Enthusiast',
+  }
 ];
 
 export const socialIcons = [

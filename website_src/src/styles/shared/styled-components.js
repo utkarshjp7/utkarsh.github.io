@@ -79,7 +79,7 @@ export const RightSideThoughts = styled(RightSide)`
 
 export const ContentMiddle = styled.div`
   margin: auto;
-  max-width: 960px;
+  max-width: 1360px;
   width: 100%;
   ${props => props.styles}
 `;

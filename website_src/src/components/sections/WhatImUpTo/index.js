@@ -6,10 +6,13 @@ const WhatImUpTo = () => (
     <SectionTitle> What I'm up to </SectionTitle>
     <UnorderedList>
       <ListItem>
-        Attending USC for M.S. in Computer Science
+      M.S in CS at University of Southern California. Graduating in May, 2020.
       </ListItem>
       <ListItem>
-        Exploring the World
+      Specializing in AI, Machine Learning, and Robotics.
+      </ListItem>
+      <ListItem>
+      Exploring the World, one national park at a time.
       </ListItem>
     </UnorderedList>
   </Section>
