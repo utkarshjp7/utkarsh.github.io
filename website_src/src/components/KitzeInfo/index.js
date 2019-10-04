@@ -38,7 +38,7 @@ class KitzeInfo extends Component {
           <Image isHome={isHome} src={me} alt="me" styles={styles.Image}/>
           <TitleAndDescription>
             <Title isHome={isHome} styles={styles.Title}> Hi, I'm Utkarsh! </Title>
-            <Description isHome={isHome} styles={styles.Description}> I get things done on time. <br></br><br></br> <UnderlinedLink href={Pdf}>Resume</UnderlinedLink></Description>
+            <Description isHome={isHome} styles={styles.Description}> I learn every day. <br></br><br></br> <UnderlinedLink href={Pdf}>Resume</UnderlinedLink></Description>
           </TitleAndDescription>
         </ClickableTop>
 

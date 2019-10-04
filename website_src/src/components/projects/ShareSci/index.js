@@ -15,10 +15,10 @@ const opts = {
 
 const ShareSci = () => (
   <Project
-    title="&#9733; ShareSci: An Intelligent Full-Text Search Engine (CSU 2018)"
+    title="&#9733; ShareSci: An Intelligent Full-Text Search Engine (2017-2018)"
   >
     <Point> <b>&bull;</b>&nbsp; Built a search engine for research papers to simplify the process of literature review.</Point>
-    <Point> <b>&bull;</b>&nbsp; Trained deep learning models to build document search, and user recommendations for 1M+ documents </Point>
+    <Point> <b>&bull;</b>&nbsp; Trained deep learning models to build document search, and user recommendations for 1M+ documents. </Point>
     <Point> <b>&bull;</b>&nbsp; Won the Best Computer Science Capstone Project Award at CSU.</Point>
 
     <Point>

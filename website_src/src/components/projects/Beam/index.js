@@ -14,7 +14,7 @@ const opts = {
 
 const Beam = () => (
   <Project
-    title="&#9733; Beam: An Autonomous Service Robot (CSU, 2017)"
+    title="&#9733; Beam: An Autonomous Service Robot (2017-2018)"
   >
     <Point>
     <b>&bull;</b>&nbsp; Lead a team to convert <UnderlinedLink href="https://suitabletech.com/products/beam"> Beam+ robot </UnderlinedLink> into an 
